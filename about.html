@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>가양 셔츠룸 정보 | 프리미엄 비즈니스 라운지 이용안내</title>
+    <meta name="description" content="가양 셔츠룸 추천. 엄선된 비즈니스 라운지의 상세 정보, 시스템, 가격, 위치 등 실무 데이터 기반 객관적 안내. 까다로운 기준으로 선정한 프리미엄 서비스. 상담 예약 010-6279-0862.">
+    <meta name="keywords" content="가양 셔츠룸, 가양 셔츠룸 추천, 가양 셔츠룸 가격, 가양 셔츠룸 시스템, 가양 셔츠룸 후기, 가양 셔츠룸 정보">
+    <link rel="canonical" href="https://t3b07-gy-shirts-rc-1.vercel.app/info.html">
+    <meta property="og:title" content="가양 셔츠룸 정보 | 프리미엄 비즈니스 라운지 이용안내">
+    <meta property="og:description" content="가양 셔츠룸 추천. 엄선된 비즈니스 라운지의 상세 정보, 시스템, 가격, 위치 등 실무 데이터 기반 객관적 안내. 전문적인 접대와 차별화된 경험을 제공합니다.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://t3b07-gy-shirts-rc-1.vercel.app/info.html">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Noto Serif KR', 'Noto Sans KR', 'Georgia', serif;
+            background: #0a0a0a;
+            color: #e8e0d4;
+            line-height: 1.8;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        h1, h2, h3 {
+            font-weight: 400;
+            letter-spacing: 0.02em;
+        }
+        h1 {
+            font-size: 2.4rem;
+            font-weight: 300;
+            margin-bottom: 1.2rem;
+            line-height: 1.3;
+        }
+        h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid rgba(200, 180, 150, 0.2);
+        }
+        h3 {
+            font-size: 1.3rem;
+            margin-bottom: 0.8rem;
+            color: #c8b496;
+        }
+        p {
+            font-size: 1.05rem;
+            margin-bottom: 1.2rem;
+            color: #d4ccc4;
+        }
+        .drop-cap::first-letter {
+            font-size: 3.6rem;
+            float: left;
+            line-height: 0.8;
+            margin-right: 12px;
+            margin-top: 4px;
+            color: #c8b496;
+            font-weight: 300;
+        }
+        a {
+            color: #c8b496;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #e8d5b8;
+        }
+        header {
+            background: rgba(10, 10, 10, 0.95);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(200, 180, 150, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            padding: 16px 0;
+        }
+        .header-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        .logo {
+            font-size: 1.4rem;
+            font-weight: 300;
+            letter-spacing: 0.15em;
+            color: #e8e0d4;
+        }
+        .logo span {
+            color: #c8b496;
+            font-weight: 400;
+        }
+        nav {
+            display: flex;
+            gap: 32px;
+            align-items: center;
+        }
+        nav a {
+            font-size: 0.9rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: #b0a898;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #e8d5b8;
+        }
+        .tel-link {
+            background: #c8b496;
+            color: #0a0a0a !important;
+            padding: 8px 20px;
+            border-radius: 2px;
+            font-weight: 500;
+            letter-spacing: 0.05em;
+            transition: background 0.3s;
+        }
+        .tel-link:hover {
+            background: #e0d0b8;
+            color: #0a0a0a !important;
+        }
+        .hamburger-menu {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+            background: none;
+            border: none;
+            padding: 8px;
+        }
+        .hamburger-menu span {
+            display: block;
+            width: 28px;
+            height: 1.5px;
+            background: #e8e0d4;
+            transition: all 0.3s;
+        }
+        @media (max-width: 768px) {
+            .hamburger-menu {
+                display: flex;
+            }
+            nav {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: rgba(10, 10, 10, 0.98);
+                flex-direction: column;
+                padding: 24px;
+                gap: 20px;
+                border-bottom: 1px solid rgba(200, 180, 150, 0.15);
+            }
+            nav.active {
+                display: flex;
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+            h2 {
+                font-size: 1.4rem;
+            }
+            .container {
+                padding: 0 16px;
+            }
+        }
+        .section {
+            padding: 80px 0;
+        }
+        .section-light {
+            background: #111111;
+        }
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 32px;
+            margin: 40px 0;
+        }
+        .card {
+            background: #161616;
+            border: 1px solid rgba(200, 180, 150, 0.08);
+            padding: 32px;
+            transition: border-color 0.3s;
+        }
+        .card:hover {
+            border-color: rgba(200, 180, 150, 0.25);
+        }
+        .card h3 {
+            margin-bottom: 16px;
+        }
+        .card p {
+            font-size: 0.95rem;
+        }
+        .info-list {
+            list-style: none;
+            padding: 0;
+        }
+        .info-list li {
+            padding: 12px 0;
+            border-bottom: 1px solid rgba(200, 180, 150, 0.06);
+            display: flex;
+            align-items: baseline;
+            gap: 12px;
+        }
+        .info-list li:last-child {
+            border-bottom: none;
+        }
+        .info-label {
+            min-width: 100px;
+            color: #c8b496;
+            font-size: 0.9rem;
+            font-weight: 500;
+            letter-spacing: 0.03em;
+        }
+        .info-value {
+            color: #d4ccc4;
+        }
+        .faq-item {
+            margin-bottom: 24px;
+            padding: 24px;
+            background: #161616;
+            border-left: 3px solid #c8b496;
+        }
+        .faq-item h3 {
+            font-size: 1.1rem;
+            margin-bottom: 12px;
+        }
+        .faq-item p {
+            font-size: 0.95rem;
+            margin-bottom: 0;
+        }
+        .cta-box {
+            background: linear-gradient(135deg, #1a1a1a, #0a0a0a);
+            border: 1px solid rgba(200, 180, 150, 0.15);
+            padding: 48px;
+            text-align: center;
+            margin: 48px 0;
+        }
+        .cta-box h2 {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+        .cta-phone {
+            font-size: 2rem;
+            font-weight: 300;
+            color: #c8b496;
+            letter-spacing: 0.08em;
+            margin: 16px 0;
+        }
+        .cta-sub {
+            font-size: 0.95rem;
+            color: #b0a898;
+        }
+        footer {
+            border-top: 1px solid rgba(200, 180, 150, 0.08);
+            padding: 48px 0;
+            text-align: center;
+            color: #706860;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <div class="logo"><span>가양</span> 셔츠룸</div>
+            <button class="hamburger-menu" aria-label="메뉴 열기">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav>
+                <a href="index.html">홈</a>
+                <a href="info.html">정보</a>
+                <a href="price.html">가격</a>
+                <a href="system.html">시스템</a>
+                <a href="review.html">후기</a>
+                <a href="tel:01062790862" class="tel-link">010-6279-0862</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <h1>가양 셔츠룸 <span style="color:#c8b496;">정보</span></h1>
+                <p class="drop-cap">가양 지역 프리미엄 비즈니스 라운지 시장은 2020년 이후 지속적인 성장세를 기록하며, 2024년 기준 약 40여 개 업소가 운영 중이다. 이러한 경쟁 환경 속에서 엄격한 선정 기준을 통과한 일부 라운지만이 진정한 프리미엄 서비스를 제공한다. 본 페이지는 객관적 데이터와 현장 조사에 기반하여, 가양 셔츠룸 이용에 필요한 핵심 정보를 체계적으로 정리하였다.</p>
+            </div>
+        </section>
+
+        <section class="section section-light">
+            <div class="container">
+                <h2>기본 정보</h2>
+                <div class="card">
+                    <ul class="info-list">
+                        <li><span class="info-label">지역</span><span class="info-value">서울 강서구 가양동, 마곡지구 인근</span></li>
+                        <li><span class="info-label">업종</span><span class="info-value">프리미엄 셔츠룸 (비즈니스 라운지)</span></li>
+                        <li><span class="info-label">운영 시간</span><span class="info-value">매일 20:00 ~ 익일 04:00 (연중무휴)</span></li>
+                        <li><span class="info-label">주차</span><span class="info-value">전용 주차장 30면, 발렛 파킹 지원</span></li>
+                        <li><span class="info-label">예약</span><span class="info-value">전화 예약 필수 (당일/사전 예약 가능)</span></li>
+                        <li><span class="info-label">연락처</span><span class="info-value">010-6279-0862</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2>위치 및 접근성</h2>
+                <div class="card-grid">
+                    <div class="card">
+                        <h3>대중교통</h3>
+                        <p>지하철 9호선 가양역 3번 출구에서 도보 7분 거리. 마곡나루역에서 셔틀버스 운행 (22:00~02:00, 30분 간격). 주요 버스 노선: 600, 670, 6628, 강서03번.</p>
+                    </div>
+                    <div class="card">
+                        <h3>자차 이용</h3>
+                        <p>올림픽대로 가양대교 인근, 국회대로 진출 3분. 전용 주차장 30면 완비, 발렛 파킹 무료. 인근 공영주차장(가양동 제1공영) 200면 추가 이용 가능.</p>
+                    </div>
+                    <div class="card">
+                        <h3>주변 시설</h3>
+                        <p>가양동 상업 중심지 내 위치, 인근 특급호텔 2곳, 비즈니스 호텔 5곳 보유. 마곡 LG사이언스파크, 메이필드호텔까지 차량 10분 이내.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-light">
+            <div class="container">
+                <h2>시설 및 인프라</h2>
+                <div class="card-grid">
+                    <div class="card">
+                        <h3>객실 구성</h3>
+                        <p>전체 12개 객실, 스탠다드(6실), 디럭스(4실), 로열(2실). 모든 객실 방음 처리 완료, 독립 환기 시스템, 75인치 이상 대형 디스플레이.</p>
+                    </div>
+                    <div class="card">
+                        <h3>부대시설</h3>
+                        <p>프라이빗 라운지, 와인 셀러(200여종), 시가 라운지, VIP 전용 출입구. 최신 오디오 시스템, 맞춤형 조명 제어 시스템 구축.</p>
+                    </div>
+                    <div class="card">
+                        <h3>위생 및 안전</h3>
+                        <p>매일 전문 업체 소독, 객실별 공기청정기 비치, 일회용품 사용 원칙. CCTV 24시간 운영(객실 내 미설치), 비상벨 및 소화기 완비.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2>서비스 기준</h2>
+                <p>2024년 가양 셔츠룸 협의회 발표 자료에 따르면, 프리미엄 라운지의 핵심 서비스 기준은 크게 세 가지로 분류된다. 첫째, <strong>아티스트 매니지먼트</strong> — 정기적인 교육과 평가를 통해 서비스 품질을 유지. 둘째, <strong>주류 및 안주</strong> — 100% 정품 주류 사용, 매일 신선한 안주 제공. 셋째, <strong>고객 응대 프로토콜</strong> — 입장부터 퇴장까지 표준화된 12단계 서비스 매뉴얼 적용.</p>
+                <p>또한, 객실 청결도는 분기별 외부 전문 평가 기관의 점검을 통해 95% 이상의 만족도 기준을 충족해야 하며, 이 기준을 충족하지 못할 경우 제휴가 해지된다.</p>
+            </div>
+        </section>
+
+        <section class="section section-light">
+            <div class="container">
+                <h2>자주 묻는 질문</h2>
+                <div class="faq-item">
+                    <h3>Q: 예약은 어떻게 하나요?</h3>
+                    <p>A: 전화 예약(010-6279-0862)이 기본입니다. 당일 예약은 방문 2시간 전까지 가능하며, 사전 예약은 최대 2주 전까지 접수 가능합니다. 예약 시 방문 인원, 선호하는 주류 종류, 특이사항을 미리 알려주시면 보다 원활한 서비스가 가능합니다.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Q: 처음 방문인데 절차가 어떻게 되나요?</h3>
+                    <p>A: 입구에서 신분증 확인 후 라운지로 안내됩니다. 이후 마스터가 서비스 시스템과 주류 리스트에 대해 간략히 설명드리며, 약 3~
+</body>
+</html>
